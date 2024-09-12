@@ -1,5 +1,25 @@
-*.exe        # for Windows executables
-*.out        # for Linux/macOS executables
-*.o          # object files
-*.a          # archive files
-*.gch        # precompiled headers
+# Ignore executable files
+*.exe
+*.out
+*.o
+*.a
+
+# Ignore compiled object files
+*.obj
+*.so
+*.dll
+*.dylib
+
+# Ignore precompiled headers
+*.gch
+*.pch
+
+# Ignore debug files
+*.log
+*.dSYM/
+.vscode/
+.idea/
+
+# Ignore build directories (if any)
+build/
+bin/
