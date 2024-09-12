@@ -1,0 +1,5 @@
+*.exe        # for Windows executables
+*.out        # for Linux/macOS executables
+*.o          # object files
+*.a          # archive files
+*.gch        # precompiled headers
