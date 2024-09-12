@@ -6,9 +6,9 @@ int main()
     cin>>n;
     for(int i=0;i<n;i++)
     {
-        for(int j=0;j<n;j++)
+        for(int j=0;j<=i;j++)
         {
-            cout<<char('A'+j)<<" "; //else it would print the ascii values
+         cout<<"*"<<" ";
         }
         cout<<endl;
     }
@@ -17,8 +17,12 @@ int main()
 
 
 /*
-A B C D 
-A B C D 
-A B C D 
-A B C D
+5
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+
 */
